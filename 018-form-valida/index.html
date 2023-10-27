@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+<head>
+    <meta charset='UTF-8'>
+    <!-- 
+        Viewport é a área onde seu website aparece, aqui é possível definir o viewport com a largura do dispositivo e initial-scale define o nível de zoom inicial quando o usuário visita a página. 
+    -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta name="author" content="Ewerton José da Silva">
+    <meta name="description" content="Venha conhecer os produtos da lanchonete BomBurguer. Oferecemos lanches, sucos e porções, além de retirada no local ou entrega.">
+    
+    <!-- 
+        O reset CSS tem que vir antes de qualquer outra estilização! 
+        Se não for customizar muito seu site site, você poderá resetar apenas determinadas propriedades, ou utilizar o normalize que faz com que os elementos se comportem com um padrão pareceido nos navegadores, ex: normalize abaixo (https://cdnjs.com/libraries/normalize):
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css'>
+    -->
+    <link rel='stylesheet' href='estilos/reset.css'>
+    <link rel='preconnect' href='https://fonts.googleapis.com'>
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap'>
+    <link rel='stylesheet' href='estilos/estilo.css'>
+    <title>Exemplo 1</title>
+</head>
+<body>
+    <h1>Lanche Bom</h1>
+    <img src='./imagens/hamburger-batata.jpg' alt='Hambúrguer e batata frita'>
+    <p>A maior lanchonete da região oferece a você todo uma grande variedade de lanches, porções e sucos. Venha saborear aqui o melhor hamburguer, retire sua encomenda pelo delivery ou aguarde a entrega no conforto da sua casa.</p> 
+    <!-- 
+        LISTAS
+        Listas não ordenadas são para listas onde a ordem dos itens não importa, como uma lista de compras, por exemplo. Essas são envolvidas em um elemento <ul>.
+        Listas Ordenadas são para listas onde a ordem dos itens importa, como uma receita. Essas são envolvidas em um elemento <ol>.
+    -->
+    <p>Nossas garantias para os clientes são: </p>
+
+    <ol>
+        <li>Oferecer produtos de qualidade</li>
+        <li>Bom atendimento</li>
+        <li>Ambiente limpo e climatizado</li>
+    </ol>
+
+    <p>E com isso esperamos seu retorno a nosso estabelecimento!</p> 
+    <p>Entre nossos principais hambúrgueres temos:</p>
+    <ul>
+        <li>Carne</li>
+        <li>Frango</li>
+        <li>Siri</li>
+    </ul>
+    <p>Veja <a href='https://www.pexels.com/pt-br/foto/foto-de-close-up-de-gado-marrom-na-grama-verde-51311/' title='Fonte da carne do habúrguer' target='_blank'>aqui</a> a qualidade de nosso habúrguer.</p>
+
+    <button>Mudar usuário</button>
+    <!-- Elementos em bloco versus elementos inline -->
+    <button disabled>Perfil do  usuário</button>
+
+    <script src='scripts/main.js'></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* p, li, h1 {
+    color: red; 
+    width: 500px;
+    border: 1px solid black;
+  } */
+
+  /* p, li, h1 {
+    color: red; 
+  } */
+
+  html {
+    font-size: 10px; /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+    font-family: 'Roboto', sans-serif; /* este deve ser o nome da fonte que você obteve no Google Fonts */
+    background-color: #F5F5F6;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center; 
+    margin: 0;
+    padding: 20px 0;
+    color: #b71c1c;
+    text-shadow: 3px 3px 1px #F5F5F6;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  body {
+    width: 720px; 
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #E1E2E1;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #b71c1c;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto; 
+    width: 510px;
+  }

@@ -1,0 +1,29 @@
+
+body {
+    width: 1280px;
+    margin: 0 auto; 
+    height: 500px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #FAFAFA;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #b71c1c;
+  }
+
+.centro {
+    height: 400px;
+    width: 600px; 
+    border: solid #000 3px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.elementos {
+  background-color: orange;
+  height: 50px;
+  width: 50px; 
+  margin: 10px;
+}
